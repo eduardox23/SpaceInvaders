@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0B055A1B265ABE00AE7CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B05591B265ABE00AE7CFA /* AppDelegate.swift */; };
+		8E0B055C1B265ABE00AE7CFA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8E0B055B1B265ABE00AE7CFA /* GameScene.sks */; };
+		8E0B055E1B265ABE00AE7CFA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B055D1B265ABE00AE7CFA /* GameScene.swift */; };
+		8E0B05601B265ABE00AE7CFA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B055F1B265ABE00AE7CFA /* GameViewController.swift */; };
+		8E0B05631B265ABE00AE7CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E0B05611B265ABE00AE7CFA /* Main.storyboard */; };
+		8E0B05651B265ABE00AE7CFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E0B05641B265ABE00AE7CFA /* Images.xcassets */; };
+		8E0B05681B265ABE00AE7CFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E0B05661B265ABE00AE7CFA /* LaunchScreen.xib */; };
+		8E0B05741B265ABE00AE7CFA /* jogo2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B05731B265ABE00AE7CFA /* jogo2Tests.swift */; };
+		8E4049E91B2FA747003BBBD0 /* Ganhou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4049E81B2FA747003BBBD0 /* Ganhou.swift */; };
+		8E4049EB1B2FA8D0003BBBD0 /* Fase3_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4049EA1B2FA8D0003BBBD0 /* Fase3_Intro.swift */; };
+		8EE6900E1B27731F0088EE85 /* Fase1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6900D1B27731F0088EE85 /* Fase1.swift */; };
+		8EE690101B2777970088EE85 /* Fase1_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6900F1B2777970088EE85 /* Fase1_Intro.swift */; };
+		8EE690121B27790C0088EE85 /* Fase2_Intro .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE690111B27790C0088EE85 /* Fase2_Intro .swift */; };
+		8EE690141B27797C0088EE85 /* Fase2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE690131B27797C0088EE85 /* Fase2.swift */; };
+		8EE690161B277B1F0088EE85 /* Perdeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE690151B277B1F0088EE85 /* Perdeu.swift */; };
+		8EE690181B277F1D0088EE85 /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE690171B277F1D0088EE85 /* Boss.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E0B056E1B265ABE00AE7CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E0B054C1B265ABE00AE7CFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E0B05531B265ABE00AE7CFA;
+			remoteInfo = jogo2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E0B05541B265ABE00AE7CFA /* jogo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jogo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0B05581B265ABE00AE7CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0B05591B265ABE00AE7CFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E0B055B1B265ABE00AE7CFA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8E0B055D1B265ABE00AE7CFA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8E0B055F1B265ABE00AE7CFA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8E0B05621B265ABE00AE7CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E0B05641B265ABE00AE7CFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E0B05671B265ABE00AE7CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8E0B056D1B265ABE00AE7CFA /* jogo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jogo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0B05721B265ABE00AE7CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0B05731B265ABE00AE7CFA /* jogo2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jogo2Tests.swift; sourceTree = "<group>"; };
+		8E4049E81B2FA747003BBBD0 /* Ganhou.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ganhou.swift; sourceTree = "<group>"; };
+		8E4049EA1B2FA8D0003BBBD0 /* Fase3_Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fase3_Intro.swift; sourceTree = "<group>"; };
+		8EE6900D1B27731F0088EE85 /* Fase1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fase1.swift; sourceTree = "<group>"; };
+		8EE6900F1B2777970088EE85 /* Fase1_Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fase1_Intro.swift; sourceTree = "<group>"; };
+		8EE690111B27790C0088EE85 /* Fase2_Intro .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fase2_Intro .swift"; sourceTree = "<group>"; };
+		8EE690131B27797C0088EE85 /* Fase2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fase2.swift; sourceTree = "<group>"; };
+		8EE690151B277B1F0088EE85 /* Perdeu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Perdeu.swift; sourceTree = "<group>"; };
+		8EE690171B277F1D0088EE85 /* Boss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boss.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E0B05511B265ABE00AE7CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0B056A1B265ABE00AE7CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E0B054B1B265ABE00AE7CFA = {
+			isa = PBXGroup;
+			children = (
+				8E0B05561B265ABE00AE7CFA /* jogo2 */,
+				8E0B05701B265ABE00AE7CFA /* jogo2Tests */,
+				8E0B05551B265ABE00AE7CFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E0B05551B265ABE00AE7CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E0B05541B265ABE00AE7CFA /* jogo2.app */,
+				8E0B056D1B265ABE00AE7CFA /* jogo2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E0B05561B265ABE00AE7CFA /* jogo2 */ = {
+			isa = PBXGroup;
+			children = (
+				8E4049EA1B2FA8D0003BBBD0 /* Fase3_Intro.swift */,
+				8E4049E81B2FA747003BBBD0 /* Ganhou.swift */,
+				8EE690171B277F1D0088EE85 /* Boss.swift */,
+				8EE690151B277B1F0088EE85 /* Perdeu.swift */,
+				8EE690131B27797C0088EE85 /* Fase2.swift */,
+				8EE6900F1B2777970088EE85 /* Fase1_Intro.swift */,
+				8EE690111B27790C0088EE85 /* Fase2_Intro .swift */,
+				8EE6900D1B27731F0088EE85 /* Fase1.swift */,
+				8E0B05591B265ABE00AE7CFA /* AppDelegate.swift */,
+				8E0B055B1B265ABE00AE7CFA /* GameScene.sks */,
+				8E0B055D1B265ABE00AE7CFA /* GameScene.swift */,
+				8E0B055F1B265ABE00AE7CFA /* GameViewController.swift */,
+				8E0B05611B265ABE00AE7CFA /* Main.storyboard */,
+				8E0B05641B265ABE00AE7CFA /* Images.xcassets */,
+				8E0B05661B265ABE00AE7CFA /* LaunchScreen.xib */,
+				8E0B05571B265ABE00AE7CFA /* Supporting Files */,
+			);
+			path = jogo2;
+			sourceTree = "<group>";
+		};
+		8E0B05571B265ABE00AE7CFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E0B05581B265ABE00AE7CFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E0B05701B265ABE00AE7CFA /* jogo2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8E0B05731B265ABE00AE7CFA /* jogo2Tests.swift */,
+				8E0B05711B265ABE00AE7CFA /* Supporting Files */,
+			);
+			path = jogo2Tests;
+			sourceTree = "<group>";
+		};
+		8E0B05711B265ABE00AE7CFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E0B05721B265ABE00AE7CFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E0B05531B265ABE00AE7CFA /* jogo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0B05771B265ABE00AE7CFA /* Build configuration list for PBXNativeTarget "jogo2" */;
+			buildPhases = (
+				8E0B05501B265ABE00AE7CFA /* Sources */,
+				8E0B05511B265ABE00AE7CFA /* Frameworks */,
+				8E0B05521B265ABE00AE7CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jogo2;
+			productName = jogo2;
+			productReference = 8E0B05541B265ABE00AE7CFA /* jogo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E0B056C1B265ABE00AE7CFA /* jogo2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0B057A1B265ABE00AE7CFA /* Build configuration list for PBXNativeTarget "jogo2Tests" */;
+			buildPhases = (
+				8E0B05691B265ABE00AE7CFA /* Sources */,
+				8E0B056A1B265ABE00AE7CFA /* Frameworks */,
+				8E0B056B1B265ABE00AE7CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E0B056F1B265ABE00AE7CFA /* PBXTargetDependency */,
+			);
+			name = jogo2Tests;
+			productName = jogo2Tests;
+			productReference = 8E0B056D1B265ABE00AE7CFA /* jogo2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E0B054C1B265ABE00AE7CFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Unirio;
+				TargetAttributes = {
+					8E0B05531B265ABE00AE7CFA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8E0B056C1B265ABE00AE7CFA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8E0B05531B265ABE00AE7CFA;
+					};
+				};
+			};
+			buildConfigurationList = 8E0B054F1B265ABE00AE7CFA /* Build configuration list for PBXProject "jogo2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E0B054B1B265ABE00AE7CFA;
+			productRefGroup = 8E0B05551B265ABE00AE7CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E0B05531B265ABE00AE7CFA /* jogo2 */,
+				8E0B056C1B265ABE00AE7CFA /* jogo2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E0B05521B265ABE00AE7CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0B05681B265ABE00AE7CFA /* LaunchScreen.xib in Resources */,
+				8E0B05651B265ABE00AE7CFA /* Images.xcassets in Resources */,
+				8E0B055C1B265ABE00AE7CFA /* GameScene.sks in Resources */,
+				8E0B05631B265ABE00AE7CFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0B056B1B265ABE00AE7CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E0B05501B265ABE00AE7CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE690101B2777970088EE85 /* Fase1_Intro.swift in Sources */,
+				8E4049EB1B2FA8D0003BBBD0 /* Fase3_Intro.swift in Sources */,
+				8EE690121B27790C0088EE85 /* Fase2_Intro .swift in Sources */,
+				8E0B055E1B265ABE00AE7CFA /* GameScene.swift in Sources */,
+				8E4049E91B2FA747003BBBD0 /* Ganhou.swift in Sources */,
+				8E0B05601B265ABE00AE7CFA /* GameViewController.swift in Sources */,
+				8EE690161B277B1F0088EE85 /* Perdeu.swift in Sources */,
+				8EE690181B277F1D0088EE85 /* Boss.swift in Sources */,
+				8EE6900E1B27731F0088EE85 /* Fase1.swift in Sources */,
+				8E0B055A1B265ABE00AE7CFA /* AppDelegate.swift in Sources */,
+				8EE690141B27797C0088EE85 /* Fase2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0B05691B265ABE00AE7CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0B05741B265ABE00AE7CFA /* jogo2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E0B056F1B265ABE00AE7CFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E0B05531B265ABE00AE7CFA /* jogo2 */;
+			targetProxy = 8E0B056E1B265ABE00AE7CFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E0B05611B265ABE00AE7CFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0B05621B265ABE00AE7CFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E0B05661B265ABE00AE7CFA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0B05671B265ABE00AE7CFA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E0B05751B265ABE00AE7CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E0B05761B265ABE00AE7CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E0B05781B265ABE00AE7CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jogo2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E0B05791B265ABE00AE7CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jogo2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E0B057B1B265ABE00AE7CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = jogo2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jogo2.app/jogo2";
+			};
+			name = Debug;
+		};
+		8E0B057C1B265ABE00AE7CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = jogo2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jogo2.app/jogo2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E0B054F1B265ABE00AE7CFA /* Build configuration list for PBXProject "jogo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0B05751B265ABE00AE7CFA /* Debug */,
+				8E0B05761B265ABE00AE7CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0B05771B265ABE00AE7CFA /* Build configuration list for PBXNativeTarget "jogo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0B05781B265ABE00AE7CFA /* Debug */,
+				8E0B05791B265ABE00AE7CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0B057A1B265ABE00AE7CFA /* Build configuration list for PBXNativeTarget "jogo2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0B057B1B265ABE00AE7CFA /* Debug */,
+				8E0B057C1B265ABE00AE7CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E0B054C1B265ABE00AE7CFA /* Project object */;
+}
